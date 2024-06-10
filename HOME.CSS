@@ -39,4 +39,10 @@
 .appiccicosa{
     position:sticky;
     top:0px;
+    
+}
+
+.banner img{
+    width:70%;
+    height:auto;
 }

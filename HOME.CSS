@@ -1,0 +1,42 @@
+.titolorosselli{
+    position:absolute;
+    top:16px;
+    right:25;
+    color:grey;
+}
+
+.titoloshop{
+    position:absolute;
+    color:#343434;
+    top:7px;
+    left:120px;
+}
+
+.logosrd{
+    position:absolute;
+    top:-5px;
+    left:10;
+
+}
+
+.barratitoli{
+    width: 100%;
+    height: 90px;
+    background:rgb(241, 239, 238);
+}
+
+.titolonoleggio{
+    color:#343434;
+}
+
+.istruzioni{
+    width: 70%;
+    height: 200px;
+    background:rgb(241, 239, 238);
+    align-content: center;
+}
+
+.appiccicosa{
+    position:sticky;
+    top:0px;
+}

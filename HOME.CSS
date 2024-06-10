@@ -49,15 +49,8 @@ body, html {
 }
 
 .banner {
-    max-width: 100%; /* Assicura che il contenitore non superi mai la larghezza dello schermo */
-    overflow: hidden; /* Evita che l'immagine fuoriesca dal contenitore */
-    display: flex;
-    justify-content: center; /* Centra l'immagine orizzontalmente */
-    align-items: center; /* Centra l'immagine verticalmente */
-}
-
-.banner img {
-    width: 70%;
-    height: auto; /* Mantiene le proporzioni originali dell'immagine */
-    max-width: 70%; /* Assicura che l'immagine non superi mai la larghezza del contenitore */
+    max-width: 70%;
+    height: auto;
+    position:absolute;
+    right:15%;
 }

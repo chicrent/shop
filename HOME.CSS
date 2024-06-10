@@ -30,8 +30,8 @@
 }
 
 .istruzioni{
-    width: 70%;
-    height: 200px;
+    width: 152%;
+    height: auto;
     background:rgb(241, 239, 238);
     align-content: center;
 }
@@ -49,8 +49,15 @@ body, html {
 }
 
 .banner {
-    max-width: 70%;
+    max-width: 80%;
     height: auto;
     position:absolute;
-    right:15%;
+    right:10%;
+}
+
+.allinea{
+    max-width: 152%;
+    height:auto;
+    position:absolute;
+    left:10%;
 }

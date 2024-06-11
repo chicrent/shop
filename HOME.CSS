@@ -49,8 +49,5 @@ body, html {
 }
 
 .banner {
-    max-width: 100%;
-    height: auto;
-    position:absolute;
-    right:10%;
+  width: 100%;
 }

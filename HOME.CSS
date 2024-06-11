@@ -43,8 +43,8 @@ body, html {
   width: 100%;
 }
 
-.blocco{
-    width: 100%;
-    height: 30px;
-    background-color: rgb(241, 239, 238);
+.titolo050{
+    position:absolute;
+    left:15px;
+    top:750px
 }

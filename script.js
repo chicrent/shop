@@ -1,5 +1,6 @@
 const products = [
-    { name: "camiciaarmani", image: "camiciaarmani.jpg" },
+    { name: "camiciaarmaniblueazzurrobianco", image: "camiciaarmani48blueazzurrobianco.png" },
+    { name: "philippepleinmaglieyttaMneroneragrigiagrigio", image: "philippeplein.png" },
 
 ];
 

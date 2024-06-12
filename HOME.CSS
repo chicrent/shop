@@ -46,5 +46,12 @@ body, html {
 .titolo050{
     position:absolute;
     left:15px;
-    top:750px
+    top: 90%;
+}
+
+
+.blocconero{
+    width: 100%;
+    top: 50px;
+    background:black;
 }

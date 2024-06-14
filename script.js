@@ -1,6 +1,6 @@
 const products = [
-    { name: "camiciaarmaniblueazzurrobianco", image: "camiciaarmani48blueazzurrobianco.png" },
-    { name: "philippepleinmaglieyttaMneroneragrigiagrigio", image: "philippeplein.png" },
+    { name: "camiciaarmaniblueazzurrobianco", image: "camiciaarmani48blueazzurrobianco.png", url:"https://www.armani.com" },
+    { name: "philippepleinmaglieyttaMneroneragrigiagrigio", image: "philippeplein.png", url:""},
 
 ];
 
@@ -14,19 +14,20 @@ function displayProducts(productArray) {
     productArray.forEach(product => {
         const li = document.createElement('li');
         
-        const link = document.createElement('a');
-        link.href = `url_del_prodotto`;
-        link.target = "_blank";
+        const link = document.createElement('a'); // Crea il tag <a>
+        link.href = product.url; // Utilizza l'URL specificato per il prodotto
+        link.target = "_blank"; // Apre il collegamento in una nuova scheda
 
         const img = document.createElement('img');
         img.src = `images/${product.image}`;
         img.alt = product.name;
 
-        link.appendChild(img);
-        li.appendChild(link);
+        link.appendChild(img); // Aggiungi l'immagine al collegamento
+        li.appendChild(link); // Aggiungi il collegamento al list item
         productList.appendChild(li);
     });
 }
+
 function searchProducts() {
     const query = document.getElementById('searchBar').value.toLowerCase();
     const filteredProducts = products.filter(product => 

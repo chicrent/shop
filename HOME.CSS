@@ -59,4 +59,5 @@ body, html {
     width: 100%;
     height: 45px;
     background-color: #C4BFAD;
+    z-index: 3;
 }

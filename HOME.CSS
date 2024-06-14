@@ -60,4 +60,9 @@ body, html {
     height: 45px;
     background-color: #C4BFAD;
     z-index: 3;
+    text-decoration: none;
+}
+
+.none{
+    text-decoration: none;
 }

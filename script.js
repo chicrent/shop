@@ -1,5 +1,5 @@
 const products = [
-    { name: "camiciaarmaniblueazzurrobianco", image: "camiciaarmani48blueazzurrobianco.png", url:"https://www.armani.com" },
+    { name: "camiciaarmaniblueazzurrobianco", image: "camiciaarmani48blueazzurrobianco.png", url:"https://docs.google.com/forms/d/e/1FAIpQLSewqKPygH-UgjNeXo0ZuAOOBOpM0aHqh92o2F9jue206yWdSw/viewform" },
     { name: "philippepleinmaglieyttaMneroneragrigiagrigio", image: "philippeplein.png", url:""},
 
 ];
